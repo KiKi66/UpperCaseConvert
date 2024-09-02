@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Uppercase Converter",
+  "version": "1.0",
+  "description": "Convert selected text to uppercase",
+  "author": "Phu Tran",
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "convert-to-uppercase": {
+      "suggested_key": {
+        "default": "Alt+A"
+      },
+      "description": "Convert selected text to uppercase"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "commands": {
+    "convert-to-uppercase": {
+      "suggested_key": {
+        "default": "Alt+A"
+      },
+      "description": "Convert selected text to uppercase"
+    }
+  }
+}
